@@ -1,0 +1,12 @@
+#TR
+Tüm projenin startýnýn verildiði kýsýmdýr
+HTTP veya HTTPS portlarý üzerinden burada start verilir ve swagger veya postman ile iletiþimi buradan kurarsýnýz
+Projeye sað týklayýp (Baþlangýç Projesi Olarak Ayarla) butonuna basýp çalýþtýrmanýz yeterli
+
+
+
+
+#EN 
+This is the section where the entire project is started. 
+HTTP or HTTPS ports are initiated here, and you establish communication via Swagger or Postman from this point. 
+Simply right-click on the project, select "Set as Startup Project," and run it to get started.

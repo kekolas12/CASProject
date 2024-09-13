@@ -1,0 +1,8 @@
+#TR
+Business katmaný httpGet,httpPut, httpPost, httpDelete kýsýmlarý için gerekli olan entitiy leri içeren 
+kod parçasý. Bunlar Request ve Response olarak management katmanlarýnda ayrýldý.
+
+
+#EN 
+The Business layer is the code segment that contains the entities required for 
+httpGet, httpPut, httpPost, and httpDelete. These are separated as Request and Response in the management layers.

@@ -1,0 +1,13 @@
+#TR
+Core katmaný projenin build katmanýndan sonraki 2. temel katmanýdýr. Bu katmanda tüm katmanlarda kullanýlabilecek
+Interface ler veya baþka entity ler bulunmakta. Bununla birlikte buraya yazacaðýnýz kodlarý tekrar tekrar farklý
+dosyalara yazmamýþ olacaksýnýz!
+
+
+
+
+
+#EN 
+The Core layer is the second fundamental layer of the project after the build layer. 
+This layer contains Interfaces or other entities that can be used across all layers. 
+Additionally, by writing code here, you avoid having to write the same code repeatedly in different files!

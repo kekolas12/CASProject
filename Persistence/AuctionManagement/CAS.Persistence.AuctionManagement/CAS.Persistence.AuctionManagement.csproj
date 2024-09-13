@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.34" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Business\AuctionService\CAS.Business.AuctionManagement\CAS.Business.AuctionManagement.csproj" />
+	  <ProjectReference Include="..\..\..\Core\CAS.Core.Infrastructure\CAS.Core.Infrastructure.csproj" />
+	  <ProjectReference Include="..\..\..\DBProvider\CAS.DBProvider.SqLServer\CAS.DBProvider.SqLServer.csproj" />
+	  <ProjectReference Include="..\..\..\Domain\AuctionService\CAS.Domain.AuctionService\CAS.Domain.AuctionService.csproj" />
+	</ItemGroup>
+</Project>

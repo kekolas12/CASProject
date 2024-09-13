@@ -1,0 +1,11 @@
+#TR
+Persistence katmaný swagger üzerinden attýðýmýz metodlarýn (get, delete, post, put) iç kodlarýný yazdýðýmýz kýsým
+bu kýsýmlarý controllerlardan ayýrmamýzýn en önemli etkilerinden bir tanesi spagetti koddan kurtulmak ve
+istediðimiz deðiþiklikleri anýnda yapma gibi þeyler kazandýrmasý.
+
+
+
+#EN 
+The Persistence layer is where we write the internal code for the methods (get, delete, post, put) 
+that we expose via Swagger. One of the main benefits of separating these from the controllers is to 
+avoid spaghetti code and to facilitate making changes immediately.

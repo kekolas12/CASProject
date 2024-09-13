@@ -1,0 +1,8 @@
+#TR
+Build klasörü projenin genel kurallarýný ve yapýlandýrmasýnýn içerildiði dosyadýr burada yapýlan 
+deðiþiklikler tüm projeyi etkiler!
+
+
+#EN
+The Build folder is the file that contains the general rules and configuration of the project.
+Changes made here affect the entire project!

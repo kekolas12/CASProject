@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9296D069-E6E5-4D58-A063-B8E80482CCEE}"
+	ProjectSection(SolutionItems) = preProject
+		Build\docker-compose.yml = Build\docker-compose.yml
+		WhatIsBuild.txt = WhatIsBuild.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{143C174C-8C14-4934-B286-E614B0537AC1}"
+	ProjectSection(SolutionItems) = preProject
+		Business\WhatIsBusiness.txt = Business\WhatIsBusiness.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuctionService", "AuctionService", "{35D071F1-880E-418F-AD96-436BC82C89A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6891E6AF-A3DD-49DD-B69B-C8BF6E595D69}"
+	ProjectSection(SolutionItems) = preProject
+		WhatIsCore.txt = WhatIsCore.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Core.Infrastructure", "Core\CAS.Core.Infrastructure\CAS.Core.Infrastructure.csproj", "{E802E8BF-F32E-4326-8327-5C4FDAE249AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Business.AuctionManagement", "Business\AuctionService\CAS.Business.AuctionManagement\CAS.Business.AuctionManagement.csproj", "{3BBD2AB5-01D9-46D5-957C-3E31A268909B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBProvider", "DBProvider", "{BA8C6728-9EB3-472B-93DA-2A224F8C447F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.DBProvider.SqLServer", "DBProvider\CAS.DBProvider.SqLServer\CAS.DBProvider.SqLServer.csproj", "{374768D1-359A-418D-9365-BC45B1EDD4E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BE946CA2-A672-4DBD-9486-B9C2CB554740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuctionService", "AuctionService", "{718755F5-A3E5-4EE6-8F4A-B95A62F2157F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Domain.AuctionService", "Domain\AuctionService\CAS.Domain.AuctionService\CAS.Domain.AuctionService.csproj", "{588C7520-9266-4F3D-B492-E4A842D46CDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{918009E4-6D4F-4633-9C83-EEFB960638FD}"
+	ProjectSection(SolutionItems) = preProject
+		WhatIsPersistence.txt = WhatIsPersistence.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuctionManagement", "AuctionManagement", "{DD28AF3C-88BE-4095-8791-95E35F378F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Persistence.AuctionManagement", "Persistence\AuctionManagement\CAS.Persistence.AuctionManagement\CAS.Persistence.AuctionManagement.csproj", "{6B8A6C23-7E98-4620-88F9-6D48704EC41E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{01D15864-E26C-406F-B291-6799B03A403A}"
+	ProjectSection(SolutionItems) = preProject
+		WhatIsPresentation.txt = WhatIsPresentation.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuctionService", "AuctionService", "{160A7A4F-6293-40CC-BB5A-015B094C39DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{26BF1241-89E6-4C9C-84FE-5AE772C69E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Shared", "Shared\CAS.Shared\CAS.Shared\CAS.Shared.csproj", "{1DF5CBD3-B7F6-4BAA-A5B7-D821332FC311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionManagement", "Presentation\AuctionService\AuctionManagement\AuctionManagement.csproj", "{2049E35C-3780-4064-A531-570ECD409923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E802E8BF-F32E-4326-8327-5C4FDAE249AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E802E8BF-F32E-4326-8327-5C4FDAE249AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E802E8BF-F32E-4326-8327-5C4FDAE249AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E802E8BF-F32E-4326-8327-5C4FDAE249AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBD2AB5-01D9-46D5-957C-3E31A268909B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBD2AB5-01D9-46D5-957C-3E31A268909B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBD2AB5-01D9-46D5-957C-3E31A268909B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBD2AB5-01D9-46D5-957C-3E31A268909B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374768D1-359A-418D-9365-BC45B1EDD4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374768D1-359A-418D-9365-BC45B1EDD4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374768D1-359A-418D-9365-BC45B1EDD4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374768D1-359A-418D-9365-BC45B1EDD4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588C7520-9266-4F3D-B492-E4A842D46CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588C7520-9266-4F3D-B492-E4A842D46CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588C7520-9266-4F3D-B492-E4A842D46CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588C7520-9266-4F3D-B492-E4A842D46CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8A6C23-7E98-4620-88F9-6D48704EC41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8A6C23-7E98-4620-88F9-6D48704EC41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8A6C23-7E98-4620-88F9-6D48704EC41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8A6C23-7E98-4620-88F9-6D48704EC41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF5CBD3-B7F6-4BAA-A5B7-D821332FC311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF5CBD3-B7F6-4BAA-A5B7-D821332FC311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF5CBD3-B7F6-4BAA-A5B7-D821332FC311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF5CBD3-B7F6-4BAA-A5B7-D821332FC311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2049E35C-3780-4064-A531-570ECD409923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2049E35C-3780-4064-A531-570ECD409923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2049E35C-3780-4064-A531-570ECD409923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2049E35C-3780-4064-A531-570ECD409923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35D071F1-880E-418F-AD96-436BC82C89A3} = {143C174C-8C14-4934-B286-E614B0537AC1}
+		{E802E8BF-F32E-4326-8327-5C4FDAE249AB} = {6891E6AF-A3DD-49DD-B69B-C8BF6E595D69}
+		{3BBD2AB5-01D9-46D5-957C-3E31A268909B} = {35D071F1-880E-418F-AD96-436BC82C89A3}
+		{374768D1-359A-418D-9365-BC45B1EDD4E7} = {BA8C6728-9EB3-472B-93DA-2A224F8C447F}
+		{718755F5-A3E5-4EE6-8F4A-B95A62F2157F} = {BE946CA2-A672-4DBD-9486-B9C2CB554740}
+		{588C7520-9266-4F3D-B492-E4A842D46CDB} = {718755F5-A3E5-4EE6-8F4A-B95A62F2157F}
+		{DD28AF3C-88BE-4095-8791-95E35F378F94} = {918009E4-6D4F-4633-9C83-EEFB960638FD}
+		{6B8A6C23-7E98-4620-88F9-6D48704EC41E} = {DD28AF3C-88BE-4095-8791-95E35F378F94}
+		{160A7A4F-6293-40CC-BB5A-015B094C39DD} = {01D15864-E26C-406F-B291-6799B03A403A}
+		{1DF5CBD3-B7F6-4BAA-A5B7-D821332FC311} = {26BF1241-89E6-4C9C-84FE-5AE772C69E5A}
+		{2049E35C-3780-4064-A531-570ECD409923} = {160A7A4F-6293-40CC-BB5A-015B094C39DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA82C4D-229E-435B-B908-D774789E186F}
+	EndGlobalSection
+EndGlobal
